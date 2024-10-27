@@ -17,17 +17,17 @@ class Student:
     def showdata(self):
        
         print("\nStudent Details:")
-        print(f"Name: {self.name}")
-        print(f"City: {self.city}")
-        print(f"ID: {self.student_id}")
-        print(f"Grade: {self.grade}")
-        print(f"Marks: {self.marks if self.marks is not None else 'No marks entered'}")
+        print("Name: {self.name}")
+        print("City: {self.city}")
+        print("ID: {self.student_id}")
+        print("Grade: {self.grade}")
+        print("Marks: {self.marks if self.marks is not None else 'No marks entered'}")
 
 
-s1 = Student("Alice", "New York", 101, "A")
-s2 = Student("Bob", "Los Angeles", 102, "B")
-s3 = Student("Charlie", "Chicago", 103, "A")
-s4 = Student("David", "Houston", 104, "B")
+s1 = Student("Ali", "New York", 101, "A")
+s2 = Student("Saad", "Los Angeles", 102, "B")
+s3 = Student("Hamza", "Chicago", 103, "A")
+s4 = Student("Dawood", "London", 104, "B")
 
 
 s1.getdata()
